@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container .top-section {
+  background-color: aquamarine;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.container .top-section span {
+  font-size: 18px;
+}
+.container .top-section input {
+  padding: 2px;
+  font-size: 12px;
+  width: 250px;
+  height: 15px;
+}
+.container .top-section button {
+  width: 150px;
+  padding: 2px;
+  font-size: 10px;
+  background-color: orange;
+  color: white;
+}
+.container .middle-section .first-section {
+  display: flex;
+  padding: 20px;
+}
+.container .middle-section .first-section .text, .container .middle-section .first-section .list {
+  width: 50%;
+}
+.container .middle-section .first-section .text h2 {
+  color: orange;
+}
+.container .middle-section .first-section .text p {
+  width: 50%;
+  font-size: 10px;
+  margin: 10px 0;
+}
+.container .middle-section .first-section .list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.container .middle-section .first-section .list ul li {
+  padding: 2px;
+  border: 1px solid orange;
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+}
+.container .middle-section .second-section {
+  margin-top: 20px;
+}
+.container .middle-section .second-section ul {
+  display: flex;
+  gap: 20px;
+  padding: 0 40px;
+  flex-wrap: wrap;
+}
+.container .middle-section .second-section ul li .product {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  position: relative;
+}
+.container .middle-section .second-section ul li .product img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+.container .middle-section .second-section ul li .product h3 {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}/*# sourceMappingURL=style.css.map */
